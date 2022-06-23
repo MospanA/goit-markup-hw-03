@@ -42,7 +42,7 @@ a {
     color: var(--accent-color);
 }
 
-/* шапка сайта */
+/* ------------------ШАПКА САЙТУ--------------- */
 
 .logo-black {
     color: var(--black-logo-color);
@@ -98,7 +98,8 @@ a {
     
 }
 
-/* подвал сайта */
+/* -------------ПІДВАЛ САЙТУ---------------- */
+
 .footer-navigation {
     background-color: var(--hero-background-color);
 }
@@ -120,11 +121,11 @@ a {
 
 .footer-contact-link:hover,
 .footer-contact-link:focus {
-    color: var(--accent-color);
-    
+    color: var(--accent-color);   
 }
 
-/* заказ услуг */
+/* ----------------ГЕРОЙ-------------- */
+
 .hero {
     background-color: var(--hero-background-color);
 }
@@ -158,7 +159,8 @@ a {
     color: var(--accent-color);
 }
 
-/* преймущества компании */
+/* -------------ПЕРЕВАГИ КОМПАНІЇ---------- */
+
 .title-item {
     font-weight: 700;
     font-size: 14px;
@@ -173,7 +175,7 @@ a {
 }
 
 
-/* чем мы занимаемся */
+/* ----------------ЧИМ МИ ЗАЙМАЕМОСЬ------------ */
 
 
 /* наша команда */
@@ -195,10 +197,12 @@ a {
     color: var(--title-text-color);
 }
 
+/* --------------------ПОРТФОЛИО----------------- */
+/* ---------------------------------------------- */
 
-/* ДЗ2 */
-
-/* навигация */
+/* ------------------НАВІГАЦІЯ------------------- */
+  
+/* кнопки*/
 .navigation-button {
     font-family: inherit, sans-serif;
     font-weight: 500;
@@ -218,7 +222,8 @@ a {
     background: var(--accent-color);
 }
 
-/* наши работы */
+/* кінець кнопок */
+
 .section-list-title {
     font-weight: 700;
     font-size: 18px;

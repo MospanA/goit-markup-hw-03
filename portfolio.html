@@ -1,130 +1,235 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-</head>
+  <body>
 
-<body>
-    <!-- шапка сайта -->
+    <!--------------ШАПКА САЙТУ ------------------>
+
     <header class="header-navigation">
-        <nav>
-            <a href="./" lang="en" class="logo-link">Web<span class="logo-black">Studio</span></a>
-            <ul class="menu-list">
-                <li class="menu-list-item"><a class="menu-list-link" href="./index.html">Студия</a></li>
-                <li class="menu-list-item"><a class="menu-list-link active" href="./portfolio.html">Портфолио</a></li>
-                <li class="menu-list-item"><a class="menu-list-link" href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="menu-contacts">
-            <li class="menu-contacts-item"><a class="menu-contact-link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="menu-contacts-item"><a class="menu-contact-link phone" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
+      <nav>
+        <a href="./" lang="en" class="logo-link"
+          >Web<span class="logo-black">Studio</span></a
+        >
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="./index.html">Студия</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-link active" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="">Контакты</a>
+          </li>
         </ul>
+      </nav>
+      <ul class="menu-contacts">
+        <li class="menu-contacts-item">
+          <a class="menu-contact-link mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="menu-contacts-item">
+          <a class="menu-contact-link phone" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
     </header>
-    <!-- блок страницы -->
+
+    <!-------------------- БЛОК САЙТУ -------------------->
+
     <main class="main-navigation">
-       
-        <section class="work">
-            <h1 class="section-title">Наши работы</h1>
-            <!-- навигация -->
-            <ul class="list-button">
-                <li class="button"><button class="navigation-button" type="button">Все</button></li>
-                <li class="button"><button class="navigation-button" type="button">Веб-сайты</button></li>
-                <li class="button"><button class="navigation-button" type="button">Приложения</button></li>
-                <li class="button"><button class="navigation-button" type="button">Дизайн</button></li>
-                <li class="button"><button class="navigation-button" type="button">Маркетинг</button></li>
-            </ul>
-        <!-- наши работы -->
-            <ul class="section-list">
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/tex.jpg" alt="Открытый веб-сайт ноутбуке" width="370" />
-                        <h2 class="section-list-title">Технокряк</h2>
-                        <p class="section-list-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/poster.jpg" alt="баскетболисты" width="370" />
-                        <h2 class="section-list-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="section-list-text">Дизайн</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/rest.jpg" alt="Текст на фоне рыбы" width="370" />
-                        <h2 class="section-list-title">Ресторан Seafood</h2>
-                        <p class="section-list-text">Приложение</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href=""2>
-                        <img class="section-img" src="./images/ptime.jpg" alt="Наушники" width="370" />
-                        <h2 class="section-list-title">Проект Prime</h2>
-                        <p class="section-list-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/boxes.jpg" alt="Коробки" width="370" />
-                        <h2 class="section-list-title">Проект Boxes</h2>
-                        <p class="section-list-text">Приложение</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/ihb.jpg" alt="Открытый веб-сайт компьютере" width="370" />
-                        <h2 lang="en" class="section-list-title">Inspiration has no Borders</h2>
-                        <p class="section-list-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/limed.jpg" alt="Открытая книга" width="370" />
-                        <h2 class="section-list-title">Издание Limited Edition</h2>
-                        <p class="section-list-text">Дизайн</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/lab.jpg" alt="Бирка" width="370" />
-                        <h2 class="section-list-title">Проект LAB</h2>
-                        <p class="section-list-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li class="section-list-item">
-                    <a class="section-link" href="">
-                        <img class="section-img" src="./images/growbus.jpg" alt="Печать на ноутбуке" width="370" />
-                        <h2 lang="en" class="section-list-title">Growing Business</h2>
-                        <p class="section-list-text">Приложение</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
+      <section class="work">
+        <h1 class="section-title">Наши работы</h1>
+
+        <!------------- КНОПКИ-НАШІ РОБОТИ ----------------->
+
+        <ul class="list-button">
+          <li class="button">
+            <button class="navigation-button" type="button">Все</button>
+          </li>
+          <li class="button">
+            <button class="navigation-button" type="button">Веб-сайты</button>
+          </li>
+          <li class="button">
+            <button class="navigation-button" type="button">Приложения</button>
+          </li>
+          <li class="button">
+            <button class="navigation-button" type="button">Дизайн</button>
+          </li>
+          <li class="button">
+            <button class="navigation-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
+
+        <!---------------------- НАШІ РОБОТИ ----------------------->
+
+        <ul class="section-list">
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/tex.jpg"
+                alt="Открытый веб-сайт ноутбуке"
+                width="370"
+              />
+              <h2 class="section-list-title">Технокряк</h2>
+              <p class="section-list-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/poster.jpg"
+                alt="баскетболисты"
+                width="370"
+              />
+              <h2 class="section-list-title">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="section-list-text">Дизайн</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/rest.jpg"
+                alt="Текст на фоне рыбы"
+                width="370"
+              />
+              <h2 class="section-list-title">Ресторан Seafood</h2>
+              <p class="section-list-text">Приложение</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="" 2>
+              <img
+                class="section-img"
+                src="./images/ptime.jpg"
+                alt="Наушники"
+                width="370"
+              />
+              <h2 class="section-list-title">Проект Prime</h2>
+              <p class="section-list-text">Маркетинг</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/boxes.jpg"
+                alt="Коробки"
+                width="370"
+              />
+              <h2 class="section-list-title">Проект Boxes</h2>
+              <p class="section-list-text">Приложение</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/ihb.jpg"
+                alt="Открытый веб-сайт компьютере"
+                width="370"
+              />
+              <h2 lang="en" class="section-list-title">
+                Inspiration has no Borders
+              </h2>
+              <p class="section-list-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/limed.jpg"
+                alt="Открытая книга"
+                width="370"
+              />
+              <h2 class="section-list-title">Издание Limited Edition</h2>
+              <p class="section-list-text">Дизайн</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/lab.jpg"
+                alt="Бирка"
+                width="370"
+              />
+              <h2 class="section-list-title">Проект LAB</h2>
+              <p class="section-list-text">Маркетинг</p>
+            </a>
+          </li>
+          <li class="section-list-item">
+            <a class="section-link" href="">
+              <img
+                class="section-img"
+                src="./images/growbus.jpg"
+                alt="Печать на ноутбуке"
+                width="370"
+              />
+              <h2 lang="en" class="section-list-title">Growing Business</h2>
+              <p class="section-list-text">Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <!-- подвал сайта -->
+
+    <!------------------ ПІДВАЛ САЙТУ ------------------> 
+    
     <footer class="footer-navigation">
-        <a href="./" lang="en" class="logo-link">Web<span class="logo-white">Studio</span></a>
-        <address class="address">
-            <ul class="menu-contacts">
-                <li class="menu-contacts-item"><a class="footer-contact-link address" href="г.Киев,пр-тЛесиУкраинки,26">г.
-                        Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="menu-contacts-item"><a class="footer-contact-link mail"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="menu-contacts-item"><a class="footer-contact-link phone" href="tel:+380961111111">+38 096 111 11
-                        11</a></li>
-            </ul>
-        </address>
+      <a href="./" lang="en" class="logo-link"
+        >Web<span class="logo-white">Studio</span></a
+      >
+      <address class="address">
+        <ul class="menu-contacts">
+          <li class="menu-contacts-item">
+            <a
+              class="footer-contact-link address"
+              href="г.Киев,пр-тЛесиУкраинки,26"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li class="menu-contacts-item">
+            <a class="footer-contact-link mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="menu-contacts-item">
+            <a class="footer-contact-link phone" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
-
-
-</body>
-
+  </body>
 </html>
