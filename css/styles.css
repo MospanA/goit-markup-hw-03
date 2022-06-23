@@ -64,17 +64,6 @@ ul {
  color: var(--primary-text-color);
 }
 
-.footer-contact-link {
- font-style: normal;
- font-size: 14px;
- line-height: 1.71;
- color: var(--footer-text-color);
-}
-
-.footer-contact-link:hover,
-.footer-contact-link:focus {
- color: var(--accent-color);
-}
 
 /* ----------------ШАПКА САЙТУ------------------- */
 
@@ -290,6 +279,18 @@ text-transform: uppercase;
 
 .logo-white {
  color: var(--white-text-color);
+}
+
+.footer-contact-link {
+ font-style: normal;
+ font-size: 14px;
+ line-height: 1.71;
+ color: var(--footer-text-color);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+ color: var(--accent-color);
 }
 
 .footer-contact {
